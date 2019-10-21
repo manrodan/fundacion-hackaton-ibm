@@ -32,7 +32,7 @@ Para lanzar la integración es necesario, previamente, haberse dado de alta en l
 La respuesta al mensaje entrante será la que esté configurada en el chatbot reducido de **Fundación_breve**
 El nodo correspondiente a Watson deberá ir configurado con la API y la URL correspondiente asignada por el servicio Assistant como se puede ver en el gráfico de abajo
 <img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/Assistant.PNG"
-     alt="Node Red"
+     alt="Assistant"
      style="float: left; margin-right: 50px;"
      width="900"/>
 
