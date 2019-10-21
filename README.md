@@ -31,7 +31,7 @@ En el gráfico siguiente se muestra la arquitectura desarrollada en Node Red par
 Para lanzar la integración es necesario, previamente, haberse dado de alta en la aplicación Telegram y la cuentqa Bot Fathjer. A partir de ahí es necesario crearse un chat y capturar su token para introducirlo en la configuración de Node Red
 La respuesta al mensaje entrante será la que esté configurada en el chatbot reducido de **Fundación_breve**
 El nodo correspondiente a Watson deberá ir configurado con la API y la URL correspondiente asignada por el servicio Assistant como se puede ver en el gráfico de abajo
-<img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/Assistant.PNG"
+<img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/Assistant.png"
      alt="Assistant"
      style="float: left; margin-right: 50px;"
      width="900"/>
