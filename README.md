@@ -15,5 +15,5 @@ En la lista de archivos se encuentra el JSON correspondiente a ambos diálogos
 
 <img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/Dialogo.png"
      alt="Dialogo"
-     style="float: left; margin-right: 20px;"
-     width="600"/>
+     style="float: left; margin-right: 40px;"
+     width="800"/>
