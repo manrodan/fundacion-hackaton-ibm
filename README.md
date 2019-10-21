@@ -25,7 +25,7 @@ Se ha incluido en el chatbot la posibilidad de búsqueda de información a trav�
 #### Integración con Node Red del servicio de Telegram
 En el gráfico siguiente se muestra la arquitectura desarrollada en Node Red para implementar su integración con Telegram. 
 
-<img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/Dialogo2.png"
+<img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/Diapositiva2.PNG"
      alt="Dialogo"
      style="float: left; margin-right: 50px;"
      width="900"/>
