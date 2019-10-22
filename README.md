@@ -53,7 +53,7 @@ La siguiente imagen es un ejemplo de la interacción con telegram.
 
 <img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/telegram.jpg"
      alt="Assistant"
-     style="float: left; margin-right: 10px;"
+     style="float: left; margin-right: 5px;"
      width="400"/>
      
 #### Integración con Node Red del servicio de Text to Speech y Speech To Text
@@ -63,4 +63,5 @@ Es necesario descargarse de la librerías de Node Red, los nodos de microphone y
      alt="Node Red"
      style="float: left; margin-right: 50px;"
      width="700"/>
+
 Para su funcionamiento es recomendable utilizar el navegador **Chrome**. Para emplearlo es necesario disponer de un micrófono activándolo al clicar sobre la caja de node red que aparece y clicando otra vez una vez terminemos nuestra pregunta.
