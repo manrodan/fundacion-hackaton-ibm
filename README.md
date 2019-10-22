@@ -49,7 +49,7 @@ El nodo correspondiente a Watson deberá ir configurado con la API y la URL corr
      style="float: left; margin-right: 50px;"
      width="900"/>
 La siguiente imagen es un ejemplo de la interacción con telegram.
-<img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/Assistant.png"
+<img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/telegram.png"
      alt="Assistant"
      style="float: left; margin-right: 50px;"
      width="900"/>
@@ -60,5 +60,5 @@ Es necesario descargarse de la librerías de Node Red, los nodos de microphone y
 <img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/speech.PNG"
      alt="Node Red"
      style="float: left; margin-right: 50px;"
-     width="900"/>
+     width="700"/>
 Para su funcionamiento es recomendable utilizar el navegador **Chrome**. Para emplearlo es necesario disponer de un micrófono activándolo al clicar sobre la caja de node red que aparece y clicando otra vez una vez terminemos nuestra pregunta.
