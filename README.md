@@ -22,7 +22,7 @@ En la lista de archivos del proyecto se encuentra el JSON correspondiente a ambo
      style="float: left; margin-right: 50px;"
      width="900"/>
 
-Para incorporar el los Dialogos es necesario hacerlo siguiendo los siguientes pasos.
+Para incorporar los Dialogos a un asistente es necesario hacerlo siguiendo los siguientes pasos.
     1. Dar de alta y lanzar el servicio Watson-Assistant
     2. Crear un asistente.
     3. Añadir un diálogo exportando el JSON adjunto
@@ -32,9 +32,10 @@ Para incorporar el los Dialogos es necesario hacerlo siguiendo los siguientes pa
 Se ha incluido en el chatbot la posibilidad de búsqueda de información a través del servicio Discovery. 
 La búsqueda se ha configurado para realizarse en  información almacenada en la web de la Fundación Naturgy y permite ampliar la respuesta en el caso de cuestiones relacionadas con la Escuela de Energía, y en otros puntos del ChatBot sobre cuestiones no registradas en el Diálogo.
 Para ello se ha utilizado el servicio de WEB_CRAWL y se ha configurado el mismo en cuadro de diálogo SEARCH del asistente de Watson.
+
 #### Integración con Node Red del servicio de Telegram
 En el siguiente enlace aparecen los pasos para darse de alta en Node-Red y como crear una aplicación:
-[Guía Node Red]:(https://cloud.ibm.com/docs/cloud-foundry?topic=cloud-foundry-gettingstarted-nodered)
+[Guía Node Red](https://cloud.ibm.com/docs/cloud-foundry?topic=cloud-foundry-gettingstarted-nodered)
 En el gráfico siguiente se muestra la arquitectura desarrollada en Node Red para implementar su integración con Telegram. 
 Es necesario descargarse de la librerías de Node Red, los nodos de Telegram: [Librería Node Red](https://flows.nodered.org/)
 <img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/Diapositiva2.PNG"
