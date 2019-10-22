@@ -39,7 +39,7 @@ El nodo correspondiente a Watson deberá ir configurado con la API y la URL corr
 #### Integración con Node Red del servicio de Text to Speech y Speech To Text
 En el gráfico siguiente se muestra la arquitectura creada en Node Red para implementar esta integración.
 Es necesario descargarse de la librerías de Node Red, los nodos de microphone y play audio [Librería Node Red](https://flows.nodered.org/)
-<img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/Diapositiva2.PNG"
+<img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/Diapositiva3.PNG"
      alt="Node Red"
      style="float: left; margin-right: 50px;"
      width="900"/>
