@@ -8,6 +8,7 @@ Las herramientas utilizadas han sido:
   3. Speech To Text
   4. Watson Discovery
   5. Node Red
+  
 Para la implementación del proyecto es necesario tener una cuenta IBM CLOUD con los servicios LITE
 ## Descripción del Proyecto
 ### Chatbot Watson Assistant
