@@ -3,7 +3,7 @@
 El presente proyecto implementa un chatbot para su uso futuro por parte de los formadores, alumnos y visitantes de la Escuela de Energía de la Fundación Naturgy. El chatbot permitirá responder de forma ágil a las preguntas que puedan surgir sobre las actividades de la Escuela de Energía, noticias, plan de vulnerabilidad, pobreza energética, etc.
 El proyecto se ha desarrollado enteramente empleando las herramientas o servicios de IBM Cloud.
 Las herramientas utilizadas han sido:
-  1. Watson Assisant
+  1. Watson Assistant
   2. Text To Speech
   3. Speech To Text
   4. Watson Discovery
@@ -24,6 +24,7 @@ En la lista de archivos se encuentra el JSON correspondiente a ambos diálogos y
 Se ha incluido en el chatbot la posibilidad de búsqueda de información a través del servicio Discovery. La búsqueda se efectúa a traves de la web de la Fundación Naturgy.
 #### Integración con Node Red del servicio de Telegram
 En el gráfico siguiente se muestra la arquitectura desarrollada en Node Red para implementar su integración con Telegram. 
+Es necesario descargarse de la librerías de Node Red, los nodos de Telegram [Librería Node Red](https://flows.nodered.org/)
 <img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/Diapositiva2.PNG"
      alt="Node Red"
      style="float: left; margin-right: 50px;"
@@ -33,6 +34,13 @@ La respuesta al mensaje entrante será la que esté configurada en el chatbot re
 El nodo correspondiente a Watson deberá ir configurado con la API y la URL correspondiente asignada por el servicio Assistant como se puede ver en el gráfico de abajo
 <img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/Assistant.png"
      alt="Assistant"
+     style="float: left; margin-right: 50px;"
+     width="900"/>
+#### Integración con Node Red del servicio de Text to Speech y Speech To Text
+En el gráfico siguiente se muestra la arquitectura creada en Node Red para implementar esta integración.
+Es necesario descargarse de la librerías de Node Red, los nodos de microphone y play audio [Librería Node Red](https://flows.nodered.org/)
+<img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/Diapositiva2.PNG"
+     alt="Node Red"
      style="float: left; margin-right: 50px;"
      width="900"/>
 
