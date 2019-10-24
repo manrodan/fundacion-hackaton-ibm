@@ -1,7 +1,18 @@
 # Hackaton IBM - Chatbot Escuela de Energía de la Fundación Naturgy
 ## Introducción
-El presente proyecto implementa un chatbot para su uso por parte de los formadores, alumnos y visitantes de la Escuela de Energía de la Fundación Naturgy. El chatbot permite responder de forma ágil a las preguntas que puedan surgir sobre las actividades de la Escuela de Energía, noticias, plan de vulnerabilidad, pobreza energética, etc.
+El presente proyecto implementa un chatbot para su uso por parte de los formadores, alumnos y visitantes de la Escuela de Energía de la Fundación Naturgy. 
+**La Escuela de Energía** es un proyecto de la Fundación Naturgy, enmarcado dentro del Plan de Vulnerabilidad Energética. Desde la Escuela se imparte formación a profesionales de los servicios sociales de las administraciones públicas, a profesionales y voluntarios de ONGs y a personas y familias vulnerables. 
+A través de sesiones itinerantes, se trabajan temas relacionados con **la eficiencia energética o la optimización de facturas**, entre otros, con el objetivo de **minimizar el impacto del coste energético en la vida las personas más vulnerables y con menos recursos**. 
+
+La información impartida está accesible a través del portal web de la fundación, pero puede ser complicada de localizar para los formadores y más aún para el público en general que puede navegar por la web.  
+
+Un chatbot de ayuda al usuario facilitará el acceso a la información y **se ha realizado de manera inclusiva, accesible a las personas con necesidades especiales a través de las herramientas de diálogo con la voz**
+
+También se ha realizado su desarrollo para establecer **el chat a través de Telegram**. 
+
+El chatbot permite responder de forma ágil a las preguntas que puedan surgir sobre las actividades de la Escuela de Energía, noticias, plan de vulnerabilidad, pobreza energética, etc.
 El proyecto **se ha desarrollado integramente empleando las herramientas o servicios de IBM Cloud.**
+
 Las herramientas utilizadas han sido:
   1. Watson Assistant
   2. Text To Speech
@@ -9,7 +20,7 @@ Las herramientas utilizadas han sido:
   4. Watson Discovery
   5. Node Red
   
-Para la implementación del proyecto es necesario tener una cuenta IBM CLOUD con los servicios LITE
+Para la implementación del proyecto es necesario tener una cuenta IBM CLOUD con los servicios LITE. Para el desarrollo de este proyecto también se ha utilizado el servicio de pago SEARCH Plus en su modalidad de Try.
 ## Descripción del Proyecto
 ### Chatbot Watson Assistant
 Se han desarrollado dos chatbot, el primero de ellos denominado **Fundación** con funcionalidad completa de imágenes, textos, links, etc. para su integración en una web; mientras que el segundo chatbot **Fundación_breve** es un asistente con respuesta de sólo texto para facilitar su integración con las herramientas Speech_To_Text, Text_To_Speech y Telegram.
