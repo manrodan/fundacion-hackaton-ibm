@@ -64,8 +64,8 @@ La siguiente imagen es un ejemplo de la interacción con telegram.
 
 <img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/telegram_web.png"
      alt="Assistant"
-     style="float: left; margin-right: 5px;"
-     width="400"/>
+     style="float: left; margin-right: 30px;"
+     width="600"/>
      
 #### Integración con Node Red del servicio de Text to Speech y Speech To Text
 En el gráfico siguiente se muestra la arquitectura creada en Node Red para implementar esta integración.
