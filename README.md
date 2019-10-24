@@ -62,7 +62,7 @@ El nodo correspondiente a Watson deberá ir configurado con la API y la URL corr
      width="900"/>
 La siguiente imagen es un ejemplo de la interacción con telegram.
 
-<img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/telegram.jpg"
+<img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/telegram_web.png"
      alt="Assistant"
      style="float: left; margin-right: 5px;"
      width="400"/>
