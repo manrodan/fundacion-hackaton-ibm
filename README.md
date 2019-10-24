@@ -84,3 +84,4 @@ Es necesario descargarse de la librerías de Node Red, los nodos de microphone y
      width="700"/>
 
 Para su funcionamiento es recomendable utilizar el navegador **Chrome**. Para emplearlo es necesario disponer de un micrófono activándolo al clicar sobre la caja de node red que aparece y clicando otra vez una vez terminemos nuestra pregunta.
+La respuesta del chatbot será también por voz
