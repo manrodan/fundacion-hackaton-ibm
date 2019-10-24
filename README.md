@@ -1,7 +1,9 @@
 # Hackaton IBM - Chatbot Escuela de Energía de la Fundación Naturgy
 ## Introducción
 El presente proyecto implementa un chatbot para su uso por parte de los formadores, alumnos y visitantes de la Escuela de Energía de la Fundación Naturgy. 
+
 **La Escuela de Energía** es un proyecto de la Fundación Naturgy, enmarcado dentro del Plan de Vulnerabilidad Energética. Desde la Escuela se imparte formación a profesionales de los servicios sociales de las administraciones públicas, a profesionales y voluntarios de ONGs y a personas y familias vulnerables. 
+
 A través de sesiones itinerantes, se trabajan temas relacionados con **la eficiencia energética o la optimización de facturas**, entre otros, con el objetivo de **minimizar el impacto del coste energético en la vida las personas más vulnerables y con menos recursos**. 
 
 La información impartida está accesible a través del portal web de la fundación, pero puede ser complicada de localizar para los formadores y más aún para el público en general que puede navegar por la web.  
@@ -11,6 +13,7 @@ Un chatbot de ayuda al usuario facilitará el acceso a la información y *
 También se ha realizado su desarrollo para establecer **el chat a través de Telegram**. 
 
 El chatbot permite responder de forma ágil a las preguntas que puedan surgir sobre las actividades de la Escuela de Energía, noticias, plan de vulnerabilidad, pobreza energética, etc.
+
 El proyecto **se ha desarrollado integramente empleando las herramientas o servicios de IBM Cloud.**
 
 Las herramientas utilizadas han sido:
@@ -24,8 +27,11 @@ Para la implementación del proyecto es necesario tener una cuenta IBM CLOUD con
 ## Descripción del Proyecto
 ### Chatbot Watson Assistant
 Se han desarrollado dos chatbot, el primero de ellos denominado **Fundación** con funcionalidad completa de imágenes, textos, links, etc. para su integración en una web; mientras que el segundo chatbot **Fundación_breve** es un asistente con respuesta de sólo texto para facilitar su integración con las herramientas Speech_To_Text, Text_To_Speech y Telegram.
+
 El chatbot Fundación consta de dos skills: Uno de diálogo y otro de búsqueda. Este último busca información en la página WEB de la Fundación Naturgy. El skill de Diáologo consta de 19 intents, 7 entities y 45 cuadros de diálogo.
+
 En el diálogo se puede interaccionar con el bot sobre cuestiones relacionadas con vulnerabilidad energética,clientes vulnerables, escuela de nergía, fundación Naturgy, etc.
+
 En la lista de archivos del proyecto se encuentra el JSON correspondiente a ambos diálogos y en la imagen se puede observar una captura de uno de ellos.
 
 <img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/Dialogo.png"
@@ -40,7 +46,9 @@ Para incorporar los Dialogos a un asistente es necesario hacerlo siguiendo los s
 *Nota:Para añdir el skill de Búsqueda es necesario utilizar los servicios PLUS* 
 ### Integración con otras aplicaciones
 #### Watson Discovery
+
 Se ha incluido en el chatbot la posibilidad de búsqueda de información a través del servicio Discovery. 
+
 La búsqueda se ha configurado para realizarse en  información almacenada en la web de la Fundación Naturgy y permite ampliar la respuesta en el caso de cuestiones relacionadas con la Escuela de Energía, y en otros puntos del ChatBot sobre cuestiones no registradas en el Diálogo.
 Para ello se ha utilizado el servicio de WEB_CRAWL y se ha configurado el mismo en cuadro de diálogo SEARCH del asistente de Watson.
 
