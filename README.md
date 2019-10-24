@@ -1,4 +1,4 @@
-# Hackaton IBM - Chatbot Escuela de Energía de la Fundación Naturgy
+## Hackaton IBM - Chatbot Escuela de Energía de la Fundación Naturgy
 ## Introducción
 El presente proyecto implementa un chatbot para su uso por parte de los formadores, alumnos y visitantes de la Escuela de Energía de la Fundación Naturgy. 
 
