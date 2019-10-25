@@ -56,7 +56,7 @@ Para ello se ha utilizado el servicio de WEB_CRAWL y se ha configurado el mismo 
 En el siguiente enlace aparecen los pasos para darse de alta en Node-Red y como crear una aplicación:
 [Guía Node Red](https://cloud.ibm.com/docs/cloud-foundry?topic=cloud-foundry-gettingstarted-nodered)
 En la pantalla de inicio de NODE RED es necesario darse de alta como usuario la primera vez que se emplea:
-<img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/Diapositiva2.PNG"
+<img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/EntrarNodeRed.png"
      alt="Node Red"
      style="float: left; margin-right: 50px;"
      width="900"/>
@@ -76,7 +76,7 @@ El nodo correspondiente a Watson deberá ir configurado con la API y la URL corr
 La siguiente imagen es un ejemplo de la interacción con telegram.
 
 <img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/telegram_web.png"
-     alt="Assistant"
+     alt="Telegram"
      style="float: left; margin-right: 30px;"
      width="600"/>
      
