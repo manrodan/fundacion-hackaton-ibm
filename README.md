@@ -32,6 +32,10 @@ El chatbot Fundación consta de dos skills: Uno de diálogo y otro de búsqueda.
 
 En el diálogo se puede interaccionar con el bot sobre cuestiones relacionadas con vulnerabilidad energética,clientes vulnerables, escuela de nergía, fundación Naturgy, etc.
 
+Para la mejora del asistante y su interacción con los usuarios se ha utilizado, además del feedback de los desarrolladores, la herramienta Analytics del Assistant.
+
+
+
 En la lista de archivos del proyecto se encuentra el JSON correspondiente a ambos diálogos y en la imagen se puede observar una captura de uno de ellos.
 
 <img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/Dialogo.png"
@@ -92,4 +96,5 @@ Es necesario descargarse de la librerías de Node Red, los nodos de microphone y
      width="700"/>
 
 Para su funcionamiento es recomendable utilizar el navegador **Chrome**. Para emplearlo es necesario disponer de un micrófono activándolo al clicar sobre la caja de node red que aparece y clicando otra vez una vez terminemos nuestra pregunta.
-La respuesta del chatbot será también por voz
+La respuesta del chatbot será también por voz.
+El servicio de voz no se ha integrado directamente en el chatbot, formaría parte de otro desarrollo posterior al que aquí se muestra
