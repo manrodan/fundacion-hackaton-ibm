@@ -23,7 +23,7 @@ Las herramientas utilizadas han sido:
   4. Watson Discovery
   5. Node Red
   
-Para la implementación del proyecto es necesario tener una cuenta IBM CLOUD con los servicios LITE. Para el desarrollo de este proyecto también se ha utilizado el servicio de pago SEARCH Plus en su modalidad de Try.
+Para la implementación del proyecto es necesario tener una cuenta IBM CLOUD con los servicios LITE activados. Para el desarrollo de este proyecto también se ha utilizado el servicio de pago SEARCH Plus en su modalidad de Try.
 ## Descripción del Proyecto
 ### Chatbot Watson Assistant
 Se han desarrollado dos chatbot, el primero de ellos denominado **Fundación** con funcionalidad completa de imágenes, textos, links, etc. para su integración en una web; mientras que el segundo chatbot **Fundación_breve** es un asistente con respuesta de sólo texto para facilitar su integración con las herramientas Speech_To_Text, Text_To_Speech y Telegram.
