@@ -34,7 +34,10 @@ En el diálogo se puede interaccionar con el bot sobre cuestiones relacionadas c
 
 Para la mejora del asistante y su interacción con los usuarios se ha utilizado, además del feedback de los desarrolladores, la herramienta Analytics del Assistant.
 
-
+<img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/Analytics.png"
+     alt="Dialogo"
+     style="float: left; margin-right: 50px;"
+     width="900"/>
 
 En la lista de archivos del proyecto se encuentra el JSON correspondiente a ambos diálogos y en la imagen se puede observar una captura de uno de ellos.
 
