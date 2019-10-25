@@ -45,6 +45,9 @@ Para incorporar los Dialogos a un asistente es necesario hacerlo siguiendo los s
     3. Añadir un diálogo exportando el JSON adjunto
 *Nota:Para añdir el skill de Búsqueda es necesario utilizar los servicios PLUS* 
 ### Integración con otras aplicaciones
+Como hemos dicho antes, en este proyecto se han usado distintos servicios de IBM Cloud, para poder integrarlos se ha usado Node-RED que es una herramienta de “low-code programming” que permite conectar dispositivos de hardware, API’s y servicios en línea como los que hemos usado.  
+
+Proporciona un editor basado en navegador que facilita la conexión de flujos utilizando nodos que se pueden implementar en su tiempo de ejecución con un solo clic. 
 #### Watson Discovery
 
 Se ha incluido en el chatbot la posibilidad de búsqueda de información a través del servicio Discovery. 
