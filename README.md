@@ -55,6 +55,11 @@ Para ello se ha utilizado el servicio de WEB_CRAWL y se ha configurado el mismo 
 #### Integración con Node Red del servicio de Telegram
 En el siguiente enlace aparecen los pasos para darse de alta en Node-Red y como crear una aplicación:
 [Guía Node Red](https://cloud.ibm.com/docs/cloud-foundry?topic=cloud-foundry-gettingstarted-nodered)
+En la pantalla de inicio de NODE RED es necesario darse de alta como usuario la primera vez que se emplea:
+<img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/Diapositiva2.PNG"
+     alt="Node Red"
+     style="float: left; margin-right: 50px;"
+     width="900"/>
 En el gráfico siguiente se muestra la arquitectura desarrollada en Node Red para implementar su integración con Telegram. 
 Es necesario descargarse de la librerías de Node Red, los nodos de Telegram: [Librería Node Red](https://flows.nodered.org/)
 <img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/Diapositiva2.PNG"
