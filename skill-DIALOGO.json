@@ -1,0 +1,2584 @@
+{
+  "name": "DIALOGO",
+  "intents": [
+    {
+      "intent": "discriminacion_horaria",
+      "examples": [
+        {
+          "text": "¿Qué es la discriminación horaria?"
+        }
+      ],
+      "description": "Discriminación horaria"
+    },
+    {
+      "intent": "Saludo_general",
+      "examples": [
+        {
+          "text": "como te llamas"
+        },
+        {
+          "text": "que es de tu vida?"
+        },
+        {
+          "text": "como te va?"
+        },
+        {
+          "text": "buenas noches"
+        },
+        {
+          "text": "que tal?"
+        },
+        {
+          "text": "buenas tardes"
+        },
+        {
+          "text": "Buenos dias"
+        }
+      ],
+      "description": "Saludo inicial"
+    },
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "Brillante respuesta."
+        },
+        {
+          "text": "Bien, lo haremos."
+        },
+        {
+          "text": "Afirmativo."
+        },
+        {
+          "text": "Excelente trabajo."
+        },
+        {
+          "text": "Esta todo perfecto."
+        },
+        {
+          "text": "Es exactamente lo que necesitamos."
+        },
+        {
+          "text": "Es exactamente lo que estaba pensando."
+        },
+        {
+          "text": "Es correcto."
+        },
+        {
+          "text": "De acuerdo."
+        },
+        {
+          "text": "Correcto, es lo que estaba buscando"
+        },
+        {
+          "text": "Buen trabajo."
+        },
+        {
+          "text": "Justo lo que necesitaba."
+        },
+        {
+          "text": "Has sido de gran ayuda"
+        },
+        {
+          "text": "Gran trabajo."
+        },
+        {
+          "text": "Excelente respuesta."
+        },
+        {
+          "text": "Si, es eso lo que busco."
+        },
+        {
+          "text": "Perfecto"
+        },
+        {
+          "text": "Muy bueno."
+        },
+        {
+          "text": "Muy bien, gracias."
+        },
+        {
+          "text": "Maravilloso"
+        }
+      ],
+      "description": "Acknowledge that the response satisfies a question."
+    },
+    {
+      "intent": "comercializadoras",
+      "examples": [
+        {
+          "text": "modalidades de contrato"
+        },
+        {
+          "text": "distribuidora"
+        },
+        {
+          "text": "comercializadoras"
+        },
+        {
+          "text": "Comercializadora"
+        }
+      ],
+      "description": "Comercializadoras"
+    },
+    {
+      "intent": "Bot_Control_Clarification",
+      "examples": [
+        {
+          "text": "Recapitulemos"
+        },
+        {
+          "text": "Puede explicarme nuevamente, no entendí."
+        },
+        {
+          "text": "Podriamos empezar de nuevo?"
+        },
+        {
+          "text": "Podemos dar un paso atrás?"
+        },
+        {
+          "text": "No te entiendo muy bien."
+        },
+        {
+          "text": "No estoy seguro si entendi, podría explicarme nuevamente?"
+        },
+        {
+          "text": "No entendiste lo que dije."
+        },
+        {
+          "text": "No entendi."
+        },
+        {
+          "text": "Me puedes dar mas información?"
+        },
+        {
+          "text": "Lo siento, una vez mas."
+        },
+        {
+          "text": "Lo siento, puedes repetirlo una vez mas."
+        },
+        {
+          "text": "Lo siento pero eso no es lo que estaba preguntando"
+        },
+        {
+          "text": "Explicame de nuevo."
+        },
+        {
+          "text": "Eso no te estoy preguntando."
+        },
+        {
+          "text": "Eso no es lo que dije."
+        },
+        {
+          "text": "Entendiste mal."
+        },
+        {
+          "text": "Creo que no entendi, puede repetirlo?"
+        },
+        {
+          "text": "A que te refieres?"
+        },
+        {
+          "text": "No respondiste a mi pregunta."
+        },
+        {
+          "text": "Que quieres decir con eso?"
+        }
+      ],
+      "description": "Repita o aclare la última declaración."
+    },
+    {
+      "intent": "Reinicio",
+      "examples": [
+        {
+          "text": "reinicio"
+        },
+        {
+          "text": "volver a empezar"
+        },
+        {
+          "text": "NO"
+        },
+        {
+          "text": "quiero empezar de nuevo"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Conoce_Factura",
+      "examples": [
+        {
+          "text": "que es el peaje?"
+        },
+        {
+          "text": "tarifa"
+        },
+        {
+          "text": "peaje"
+        },
+        {
+          "text": "quiero saber sobre mi factura"
+        },
+        {
+          "text": "billing"
+        },
+        {
+          "text": "que significa mi factura"
+        },
+        {
+          "text": "facturacion"
+        },
+        {
+          "text": "factura"
+        },
+        {
+          "text": "como entender mi factura"
+        },
+        {
+          "text": "no entiendo mi factura"
+        }
+      ],
+      "description": "Información sobre la factura"
+    },
+    {
+      "intent": "Fundacion",
+      "examples": [
+        {
+          "text": "¿qué tal?"
+        },
+        {
+          "text": "fundacion"
+        },
+        {
+          "text": "cual es el correo de la fundacion?"
+        },
+        {
+          "text": "cual es tu correo"
+        },
+        {
+          "text": "contacto"
+        },
+        {
+          "text": "Cual es el contacto de la fundación?"
+        },
+        {
+          "text": "organizacion"
+        },
+        {
+          "text": "foundacion"
+        },
+        {
+          "text": "¿Cuál es la acción social que tiene la Fundación?"
+        },
+        {
+          "text": "Objetivo de la Fundación"
+        },
+        {
+          "text": "¿Quienes forman la fundación?"
+        },
+        {
+          "text": "¿Qué servicios ofrece la Fundación?"
+        }
+      ],
+      "description": "Información sobre la Fundación Naturgy"
+    },
+    {
+      "intent": "Despedida",
+      "examples": [
+        {
+          "text": "adios"
+        },
+        {
+          "text": "hasta siempre"
+        },
+        {
+          "text": "hasta otra"
+        },
+        {
+          "text": "has otro momento"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "es suficiente"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Vulnerabilidad",
+      "examples": [
+        {
+          "text": "Que es un cliente vulnerable"
+        },
+        {
+          "text": "Vulnerabilidad"
+        },
+        {
+          "text": "cual es el plan de vulnerabilidad energética"
+        },
+        {
+          "text": "cual es el plan para clientes vulnerables"
+        }
+      ],
+      "description": "Información sobre vulnerabilidad energética"
+    },
+    {
+      "intent": "Ahorro_Factura",
+      "examples": [
+        {
+          "text": "minimizar el coste energético"
+        },
+        {
+          "text": "abaratar la factura"
+        },
+        {
+          "text": "abaratamiento de los costes de energia"
+        },
+        {
+          "text": "como ahorro en mi factura"
+        },
+        {
+          "text": "como pago menos al mes"
+        },
+        {
+          "text": "como pago menos en mi factura mensual"
+        },
+        {
+          "text": "optimizar factura"
+        },
+        {
+          "text": "como pago menos en mi factura"
+        },
+        {
+          "text": "pagar menos"
+        },
+        {
+          "text": "ahorrar en mi factura"
+        },
+        {
+          "text": "que formas existen de ahorro?"
+        },
+        {
+          "text": "¿Cómo pagar menos?"
+        },
+        {
+          "text": "¿Cuál es el mejor descuento?"
+        },
+        {
+          "text": "¿Cómo optimizo la factura?"
+        },
+        {
+          "text": "¿Como consumo menos?"
+        },
+        {
+          "text": "¿qué descuentos tengo?"
+        },
+        {
+          "text": "quiero pagar menos"
+        },
+        {
+          "text": "como puedo revisar mi potencia"
+        },
+        {
+          "text": "reducir la factura"
+        }
+      ],
+      "description": "Ahorrar en la factura"
+    },
+    {
+      "intent": "Eficiencia",
+      "examples": [
+        {
+          "text": "Frigorifico"
+        },
+        {
+          "text": "Informatica"
+        },
+        {
+          "text": "COMO PUEDO AHORRAR EN CALEFACCION"
+        },
+        {
+          "text": "Eficiencia energetica"
+        },
+        {
+          "text": "Ahorro energético"
+        },
+        {
+          "text": "quiero gastar menos"
+        },
+        {
+          "text": "Eficiencia"
+        },
+        {
+          "text": "Consumo eficiente"
+        },
+        {
+          "text": "Pagar menos en factura"
+        },
+        {
+          "text": "Consejos de ahorro"
+        },
+        {
+          "text": "Calefaccion"
+        },
+        {
+          "text": "Mejorar hábitos"
+        },
+        {
+          "text": "Calefacción"
+        },
+        {
+          "text": "Iluminación"
+        },
+        {
+          "text": "refrigeracion"
+        },
+        {
+          "text": "cocina"
+        },
+        {
+          "text": "iluminacion"
+        },
+        {
+          "text": "lavadorfa"
+        },
+        {
+          "text": "lavadora"
+        }
+      ],
+      "description": "Información sobre consumo eficiente"
+    },
+    {
+      "intent": "Voluntariado",
+      "examples": [
+        {
+          "text": "¿En qué consiste ser voluntario energético?"
+        },
+        {
+          "text": "Como me hago voluntario?"
+        },
+        {
+          "text": "¿Cómo me hago voluntario?"
+        },
+        {
+          "text": "¿Qué es el voluntariado?"
+        }
+      ],
+      "description": "Datos sobre voluntariado energético"
+    },
+    {
+      "intent": "Bot_Control_Reject_Response",
+      "examples": [
+        {
+          "text": "No entiendo lo que dices."
+        },
+        {
+          "text": "No es lo que estoy preguntando."
+        },
+        {
+          "text": "No es lo que he estado buscando."
+        },
+        {
+          "text": "No es lo que pienso."
+        },
+        {
+          "text": "No estas entendiendo lo que dije."
+        },
+        {
+          "text": "No es una buena repuesta."
+        },
+        {
+          "text": "No me estas entendiendo."
+        },
+        {
+          "text": "No necesito eso."
+        },
+        {
+          "text": "No te entiendo nada."
+        },
+        {
+          "text": "Que dices?"
+        },
+        {
+          "text": "Sobre que me estas hablando?"
+        },
+        {
+          "text": "De qué estas hablando?"
+        },
+        {
+          "text": "Esa repuesta no es correcta."
+        },
+        {
+          "text": "Es la respuesta equivocada."
+        },
+        {
+          "text": "Eso no me ayuda."
+        },
+        {
+          "text": "La respuesta es incorrecta."
+        },
+        {
+          "text": "Estas equivocado."
+        },
+        {
+          "text": "No comprendiste nada."
+        },
+        {
+          "text": "No entendiste la clave."
+        },
+        {
+          "text": "No entiendo."
+        }
+      ],
+      "description": "Indique que la respuesta del bot no responde a una pregunta."
+    },
+    {
+      "intent": "Bot_Control_Change_Subject",
+      "examples": [
+        {
+          "text": "Me gustaria que empecemos de nuevo"
+        },
+        {
+          "text": "Ya no quiero continuar con esta conversación"
+        },
+        {
+          "text": "Ya no quiero continuar con esa solicitud."
+        },
+        {
+          "text": "Ya no necesito su ayuda."
+        },
+        {
+          "text": "Voy a cambiar de tema."
+        },
+        {
+          "text": "Quiero terminar la conversación."
+        },
+        {
+          "text": "Quiero otra solicitud."
+        },
+        {
+          "text": "Que estas haciendo ahora?"
+        },
+        {
+          "text": "Puedo hacer una solicitud diferente."
+        },
+        {
+          "text": "Puede decirme algo sobre ti?"
+        },
+        {
+          "text": "Puede ayudarme con otra solicitud?"
+        },
+        {
+          "text": "Podemos hablar de otra cosa?"
+        },
+        {
+          "text": "Podemos continuar con la otra solicitud?"
+        },
+        {
+          "text": "Podemos cambiar el tema?"
+        },
+        {
+          "text": "Ya no quiero seguir con esta conversación."
+        },
+        {
+          "text": "Hablame de otro tema."
+        },
+        {
+          "text": "Continuamos con otro tema."
+        },
+        {
+          "text": "Cambiemos de conversación."
+        }
+      ],
+      "description": "Cambiar a un tema diferente."
+    },
+    {
+      "intent": "Bono_Social",
+      "examples": [
+        {
+          "text": "hay una persona que ha pedido el bono social"
+        },
+        {
+          "text": "Solicitud"
+        },
+        {
+          "text": "Bono"
+        },
+        {
+          "text": "descuento"
+        },
+        {
+          "text": "cliente vulnerable"
+        },
+        {
+          "text": "pobreza energética"
+        },
+        {
+          "text": "¿tengo derecho a bono social?"
+        }
+      ],
+      "description": "Bono social"
+    },
+    {
+      "intent": "Contacto",
+      "examples": [],
+      "description": "Contacto de la Fundación"
+    },
+    {
+      "intent": "Saludo_Inicial",
+      "examples": [
+        {
+          "text": "hola"
+        }
+      ],
+      "description": "Saludo"
+    },
+    {
+      "intent": "EscuelaEnergia",
+      "examples": [
+        {
+          "text": "Que ofrece la Escuela de Energía"
+        },
+        {
+          "text": "¿Qué es la escuela de Energía?"
+        },
+        {
+          "text": "Universidad de la Energia"
+        },
+        {
+          "text": "Talleres de energía"
+        },
+        {
+          "text": "Como participar en la escuela de energía"
+        },
+        {
+          "text": "Formacion Eficiencia Energetica"
+        },
+        {
+          "text": "escuela"
+        },
+        {
+          "text": "donde actúa la escuela de energía?"
+        },
+        {
+          "text": "formacion escuela de la energia"
+        },
+        {
+          "text": "Formación de la Escuela de Energia"
+        },
+        {
+          "text": "Formacion energia"
+        }
+      ],
+      "description": "Información General sobre la Escuela de Energía"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "fundacion",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "fundacion",
+          "synonyms": [
+            "foundacion",
+            "fundacion Naturgy",
+            "foundation",
+            "organizacion"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ahorro_factura",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "mejorar habitos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "solicitar bono",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "revisar tarifa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "revisar potencia",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "apuntar",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "apuntar",
+          "synonyms": [
+            "apuntar",
+            "matricular",
+            "inscribir",
+            "unirse",
+            "apuntarme",
+            "dar de alta"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Eficiencia",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Lavadora",
+          "synonyms": [
+            "Lavarropa",
+            "washing machine"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cocina",
+          "synonyms": [
+            "vitroceramica",
+            "horno",
+            "fuegos",
+            "cocina a gas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Calefaccion",
+          "synonyms": [
+            "Cale",
+            "calor",
+            "heating"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Informatica",
+          "synonyms": [
+            "Computadora",
+            "personal computer",
+            "ordenadores",
+            "PC"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Refrigeracion",
+          "synonyms": [
+            "Aire Acondicionado",
+            "AC"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Frigorifico",
+          "synonyms": [
+            "Nevera",
+            "Fridge",
+            "Heladera"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Iluminacion",
+          "synonyms": [
+            "luz",
+            "luces",
+            "lights"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Campos_factura",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Potencia",
+          "synonyms": [
+            "Potencia contratada",
+            "watios"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CUPS",
+          "synonyms": [
+            "código CUPS",
+            "código"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tarifa",
+          "synonyms": [
+            "tarifa",
+            "tarifas",
+            "recargos",
+            "tasas",
+            "peaje"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Factura",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "bono_social",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bono",
+          "synonyms": [
+            "familia numerosa",
+            "pensionista",
+            "renta",
+            "exclusión social",
+            "nivel de ingresos",
+            "pensión"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pobreza energética",
+          "synonyms": [
+            "Pobreza de energia",
+            "Pobreza"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Condiciones",
+          "synonyms": [
+            "Condicion",
+            "Condicion acceso"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Limite de consumo",
+          "synonyms": [
+            "Limite",
+            "frontera"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bono social termico",
+          "synonyms": [
+            "Bono social termico"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Solicitud",
+          "synonyms": [
+            "petición",
+            "autorización",
+            "permiso",
+            "aprobación"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Condiciones de no corte",
+          "synonyms": [
+            "No corte"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "correo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "correo",
+          "synonyms": [
+            "correo electronico",
+            "mail",
+            "email",
+            "webmail"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "es",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-07-10"
+    }
+  },
+  "skill_id": "a5d31b70-9e63-4580-96cc-576541cea5c6",
+  "webhooks": [
+    {
+      "url": "https://eu-gb.functions.cloud.ibm.com/api/v1/namespaces/mrodrigueza%40naturgy.com_lab4/actions/connectDiscovery?blocking=true",
+      "name": "main_webhook",
+      "headers": [
+        {
+          "name": "Authorization",
+          "value": "Basic ZGNiMGVlNWQtYjAxMC00OTg4LTk1NjctOTI4YTdkZDQxMTMyOmhxd2E1dHk5aUoyTzVMOGVId1BSSmxSa1RFOVRQaGJDSzVjTk9oeVZMODBiRDVFY0RPQ0FFU1dRbnpFdFc2am8="
+        }
+      ]
+    }
+  ],
+  "description": "Cuadro Dialogo Chatbot Fundacion",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Este es nuestro correo electrónico: fundacionnaturgy\\@naturgy.com"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1569838178256",
+      "conditions": "@correo &&  @fundacion",
+      "dialog_node": "node_1_1570792275283"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A continuación te indico lo que puedes hacer para solicitar el bono social"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1570179331801",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1570171692036"
+      },
+      "conditions": "@ahorro_factura:(solicitar bono)",
+      "dialog_node": "node_6_1570628084925",
+      "previous_sibling": "node_7_1570627912951"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Puedes optar por la discriminación horaria en la que pagas un precio diferente por la energía según la hora en la que la consumas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "http://www.fundacionnaturgy.org/wp-content/uploads/2018/03/tarifa_20_A.png",
+            "response_type": "image"
+          },
+          {
+            "source": "http://www.fundacionnaturgy.org/wp-content/uploads/2018/03/tarifa_20_HDA.png",
+            "response_type": "image"
+          },
+          {
+            "source": "http://www.fundacionnaturgy.org/wp-content/uploads/2018/03/tarifa_20_HDS.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1570179331801",
+      "conditions": "@ahorro_factura:(revisar tarifa)",
+      "dialog_node": "node_7_1570627912951",
+      "previous_sibling": "node_8_1570627740251"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Debes llamar a tu comercializadora para el cambio de tarifa que tiene un coste asociado de 9,04 € + IVA (10.94 €)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "A continuación te muestro también información sobre discriminación horaria"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1570179331801",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@ahorro_factura:(revisar potencia)",
+      "dialog_node": "node_5_1570628221260",
+      "previous_sibling": "node_6_1570628084925"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A continuación te remito a los hábitos de consumo que puedes mejorar"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1570179331801",
+      "conditions": "@ahorro_factura:(mejorar habitos)",
+      "dialog_node": "node_8_1570627740251"
+    },
+    {
+      "type": "standard",
+      "title": "Informatica",
+      "output": {
+        "generic": [
+          {
+            "title": "Informática",
+            "source": "http://www.fundacionnaturgy.org/wp-content/uploads/2017/11/icono-pequenos-electrodomesticos.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Evitar el stand by utilizando ladrones y apagar de manera conjunta"
+              },
+              {
+                "text": "¿Necesitas algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1569840659385",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1570114290799"
+      },
+      "conditions": "@Eficiencia:Informatica",
+      "dialog_node": "node_6_1570086684589",
+      "previous_sibling": "node_1_1569853219141"
+    },
+    {
+      "type": "standard",
+      "title": "Lavadora",
+      "output": {
+        "generic": [
+          {
+            "title": "Lavadora",
+            "source": "http://www.fundacionnaturgy.org/wp-content/uploads/2017/11/icono-lavadora.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Siempre que sea posible, lavar con agua fría, programas cortos o programas ECO"
+              },
+              {
+                "text": "¿Necesitas algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1569840659385",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1570114290799"
+      },
+      "conditions": "@Eficiencia:Lavadora",
+      "dialog_node": "node_8_1569853312241",
+      "previous_sibling": "node_4_1570086533973"
+    },
+    {
+      "type": "standard",
+      "title": "Frigorifico",
+      "output": {
+        "generic": [
+          {
+            "title": "Frigorífico",
+            "source": "http://www.fundacionnaturgy.org/wp-content/uploads/2017/11/icono-frigorifico.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Separar el frigorífico de la pared unos centímetros para segurar el paso de aire"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Te puedo ayudar con algún otro consejo de eficiencia? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1569840659385",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1570114290799"
+      },
+      "conditions": "@Eficiencia:Frigorifico",
+      "dialog_node": "node_6_1569853268091",
+      "previous_sibling": "node_8_1569853312241"
+    },
+    {
+      "type": "standard",
+      "title": "Iluminacion",
+      "output": {
+        "generic": [
+          {
+            "title": "Iluminación",
+            "source": "http://www.fundacionnaturgy.org/wp-content/uploads/2017/11/icono-iluminacion.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Sustituir todas las bombillas por las de bajo consumo o LED"
+              },
+              {
+                "text": "¿Necesitas algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1569840659385",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1570114290799"
+      },
+      "conditions": "@Eficiencia:Iluminacion",
+      "dialog_node": "node_1_1569853219141",
+      "previous_sibling": "node_6_1569853069192"
+    },
+    {
+      "type": "standard",
+      "title": "Cocina",
+      "output": {
+        "generic": [
+          {
+            "title": "Cocina",
+            "source": "http://www.fundacionnaturgy.org/wp-content/uploads/2017/11/icono-cocina.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Utilizar calor residual en la vitrocerámica y el horno"
+              },
+              {
+                "text": "¿Necesitas algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1569840659385",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1570114290799"
+      },
+      "conditions": "@Eficiencia:Cocina",
+      "dialog_node": "node_7_1570086619340",
+      "previous_sibling": "node_6_1570086684589"
+    },
+    {
+      "type": "standard",
+      "title": "Refrigeracion",
+      "output": {
+        "generic": [
+          {
+            "title": "Refrigeración",
+            "source": "http://www.fundacionnaturgy.org/wp-content/uploads/2017/11/icono-refrigeracion.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Ventilar la casa durante las horas más frías y por la noche"
+              },
+              {
+                "text": "¿Necesitas algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1569840659385",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1570114290799"
+      },
+      "conditions": "@Eficiencia:Refrigeracion",
+      "dialog_node": "node_4_1570086533973",
+      "previous_sibling": "node_7_1570086619340"
+    },
+    {
+      "type": "standard",
+      "title": "Calefaccion",
+      "output": {
+        "generic": [
+          {
+            "title": "Calefacción",
+            "source": "http://www.fundacionnaturgy.org/wp-content/uploads/2017/11/icono-calefaccion.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Temperatura ideal: 20ºC termostatos generales, 17ºC dormitorios y 15ºC ausente"
+              },
+              {
+                "text": "¿Necesitas algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1569840659385",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1570114290799"
+      },
+      "conditions": "@Eficiencia:Calefaccion",
+      "dialog_node": "node_6_1569853069192"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "query": "$pregunta",
+            "filter": "",
+            "query_type": "natural_language",
+            "response_type": "search_skill"
+          }
+        ]
+      },
+      "parent": "node_6_1571418967982",
+      "context": {
+        "pregunta": "<?input.text?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_5_1571420006067"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_6_1570547341189",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1570547143210",
+      "disabled": true,
+      "dialog_node": "response_6_1570547341189"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Bono social térmico",
+            "source": "http://www.fundacionnaturgy.org/wp-content/uploads/2019/05/bonosocial06_es.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "En el siguiente link, en el apartado Los Contenidos, tienes más información"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<a href=\"http://www.fundacionnaturgy.org/accion-social/plan-vulnerabilidad-energetica/escuela-de-energia/\" target=\"blank\">Escuela de energia</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1570171692036",
+      "conditions": "@bono_social:(Bono social termico)",
+      "dialog_node": "node_6_1570461843707",
+      "previous_sibling": "node_3_1570461809856"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hay 3 tipos de clientes: Vulnerable, vulnerable severo y riesgo de exclusión social"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Condiciones de no corte",
+            "source": "http://www.fundacionnaturgy.org/wp-content/uploads/2019/05/bonosocial02_es.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "En el siguiente link en el apartado Los Contenidos tienes más información"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<a href=\"http://www.fundacionnaturgy.org/accion-social/plan-vulnerabilidad-energetica/escuela-de-energia/\" target=\"blank\">Escuela de energia</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1570171692036",
+      "conditions": "@bono_social:(Condiciones de no corte)",
+      "dialog_node": "node_9_1570461601420",
+      "previous_sibling": "node_9_1570461385246"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Condiciones de acceso",
+            "source": "http://www.fundacionnaturgy.org/wp-content/uploads/2019/05/bonosocial02_es.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "En el siguiente link, en el apartado Los Contenidos, tienes más información"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<a href=\"http://www.fundacionnaturgy.org/accion-social/plan-vulnerabilidad-energetica/escuela-de-energia/\" target=\"blank\">Escuela de energia</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1570171692036",
+      "conditions": "@bono_social:Condiciones",
+      "dialog_node": "node_9_1570461758461",
+      "previous_sibling": "node_9_1570461601420"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Límites de consumo bono social",
+            "source": "http://www.fundacionnaturgy.org/wp-content/uploads/2019/05/bonosocial03_es.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "En el siguiente link, el apartado los contenidos, tienes más información"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<a href=\"http://www.fundacionnaturgy.org/accion-social/plan-vulnerabilidad-energetica/escuela-de-energia/\" target=\"blank\">Escuela de energia</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1570171692036",
+      "conditions": "@bono_social:(Limite de consumo)",
+      "dialog_node": "node_3_1570461809856",
+      "previous_sibling": "node_9_1570461758461"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "query": "Pobreza energetica",
+            "filter": "",
+            "query_type": "natural_language",
+            "response_type": "search_skill"
+          }
+        ]
+      },
+      "parent": "node_7_1570171692036",
+      "conditions": "@bono_social:(Pobreza energética)",
+      "dialog_node": "node_2_1571741759409",
+      "previous_sibling": "node_6_1570461843707"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para solicitar el descuento del Bono Social tiene que llamar al Call Center de su comercializadora de referencia( puede ver en la factura quien es) \n\nEn los siguientes links puedes encontrar más información"
+              },
+              {
+                "text": "<a href=\"https://sede.cnmc.gob.es/listado/censo/10\" target=\"blank\">Comercializadoras</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "<a href=\"http://www.productos.gasnaturalfenosa.es/hogar/pdfs/es/bono_social/bono_social.pdf?_ga=2.11985079.2048960499.1510591587-1829425899.1510591586\" target=\"blank\">Formulario</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1570171692036",
+      "conditions": "@bono_social:Solicitud",
+      "dialog_node": "node_9_1570461385246"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_7_1571409093879",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1569838975842",
+      "disabled": true,
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_7_1571409093879",
+      "previous_sibling": "response_5_1571395000130"
+    },
+    {
+      "type": "standard",
+      "title": "Discovery1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Quieres más información sobre la escuela de la energía?  \nIntroduce la pregunta"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1569838975842",
+      "context": {},
+      "conditions": "true",
+      "dialog_node": "node_6_1571418967982",
+      "previous_sibling": "response_7_1571409093879"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_5_1571395000130",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1569838975842",
+      "disabled": true,
+      "conditions": "anything_else",
+      "dialog_node": "response_5_1571395000130"
+    },
+    {
+      "type": "standard",
+      "title": "discriminacion",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Puedes optar por la discriminación horaria en la que pagas un precio diferente por la energía según la hora en la que la consumas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "http://www.fundacionnaturgy.org/wp-content/uploads/2018/03/tarifa_20_A.png",
+            "response_type": "image"
+          },
+          {
+            "source": "http://www.fundacionnaturgy.org/wp-content/uploads/2018/03/tarifa_20_HDA.png",
+            "response_type": "image"
+          },
+          {
+            "source": "http://www.fundacionnaturgy.org/wp-content/uploads/2018/03/tarifa_20_HDS.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_5_1570628221260",
+      "conditions": "true",
+      "dialog_node": "node_1_1570882533462"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Es lo que se tiene que pagar a la distribuidora por el uso de la red"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Tarifa 2.0A (sin discriminación horaria)\nTarifa 2.0DHA (con un período punta y otro valle según el horario de consumo y la tarifa)\nTarifa 2.0DHS (con un período punta, otro valle y otro súper valle, según el horario de consumo)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1570174066548",
+      "conditions": "@Campos_factura:Tarifa",
+      "dialog_node": "node_8_1570627224857",
+      "previous_sibling": "node_7_1570627183026"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El Código Universal de Punto de Suministro (CUPS) es el identiﬁcador de la vivienda donde se presta el suministro"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1570174066548",
+      "conditions": "@Campos_factura:(CUPS)",
+      "dialog_node": "node_7_1570627183026",
+      "previous_sibling": "node_3_1570627077898"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Es la cantidad máxima de energía eléctrica que puede entrar en tu vivienda en un instante determinado, medida en kilowatios (kW)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1570174066548",
+      "conditions": "@Campos_factura:Potencia",
+      "dialog_node": "node_3_1570627077898"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Buen día para ti. Dime en que te puedo ayudar"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Saludo_general ||  #Saludo_Inicial",
+      "dialog_node": "node_7_1571149169457",
+      "previous_sibling": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "Escuela energia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La Escuela de Energía es un proyecto de la Fundación Naturgy, enmarcado dentro del Plan de Vulnerabilidad Energética. Desde la Escuela se imparte formación a profesionales de los servicios sociales de las administraciones públicas, a profesionales y voluntarios de ONGs y a personas y familias vulnerables.\n\nSe han realizado **1.344 formaciones con 14.749 asistentes**"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Areas de influencia",
+            "source": "http://www.fundacionnaturgy.org/wp-content/uploads/2018/03/Infografia_mapa_ES.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "En este enlace puedes encontrar más información\n\n<a href=\"http://www.fundacionnaturgy.org/accion-social/plan-vulnerabilidad-energetica/escuela-de-energia/\" target=\"blank\">Escuela de Energía</a>"
+              },
+              {
+                "text": "¿Necesitas algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "callout": {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "input": "<?input.text?>"
+          },
+          "result_variable": "webhook_result_1"
+        },
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1571418967982"
+      },
+      "conditions": "#EscuelaEnergia",
+      "dialog_node": "node_8_1569838975842",
+      "previous_sibling": "node_6_1569838178256"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Encantado de haberte tenido con nosotros. Este es nuestro contacto si necesitas más información"
+              },
+              {
+                "text": "fundacion\\@naturgy.com"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Despedida",
+      "dialog_node": "node_8_1570965289903",
+      "previous_sibling": "node_6_1570883567878"
+    },
+    {
+      "type": "standard",
+      "title": "Comercializadora",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Existen las siguientes comercializadoras:\n\n1. Referencia: Existen dos tarifas; la que establece el regulador (PVPC)  y el precio ﬁjo.\nEn el siguiente link encuentras las comercializadoras de referencia\n\n<a href=\"https://sede.cnmc.gob.es/listado/censo/10\" target=\"blank\">Comercializadoras</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "2. Mercado Libre: Dispongo de inﬁnidad de opciones de tarifas y precios"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Necesitas algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#comercializadoras",
+      "dialog_node": "node_3_1570547143210",
+      "previous_sibling": "node_1_1570179331801"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Muchas gracias ! ¿Te puedo ayudar en algo más? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Bot_Control_Approve_Response",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1570794498561",
+      "previous_sibling": "node_5_1570794405843"
+    },
+    {
+      "type": "standard",
+      "title": "Voluntarios",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "source": "http://www.fundacionnaturgy.org/wp-content/uploads/2018/06/voluntariado-energetico-cruz-roja3-650x450.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "El Voluntariado Energético es una iniciativa de acción social impulsada por la Fundación Naturgy que se enmarca en el Plan de Vulnerabilidad de la compañía"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "El objetivo es aprovechar el conocimiento de los empleados para ayudar a las personas vulnerables."
+              },
+              {
+                "text": "Pincha en el enlace si deseas más información"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<a href=\"http://www.fundacionnaturgy.org/accion-social/plan-vulnerabilidad-energetica/voluntariado-energetico-corporativo/\">Voluntariado Energético</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Voluntariado",
+      "dialog_node": "node_6_1570711631800",
+      "previous_sibling": "node_8_1570691330017"
+    },
+    {
+      "type": "standard",
+      "title": "Otras cosas",
+      "output": {
+        "generic": [
+          {
+            "query": "$question",
+            "filter": "",
+            "query_type": "natural_language",
+            "response_type": "search_skill"
+          },
+          {
+            "values": [
+              {
+                "text": "No le he entendido. Intente reformular la consulta."
+              },
+              {
+                "text": "¿Puede expresarse con otras palabras? No le he entendido."
+              },
+              {
+                "text": "No entendí el significado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "question": "<?input.text?>"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "En otras cosas",
+      "previous_sibling": "node_8_1570965289903"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "query": "$question",
+            "filter": "",
+            "query_type": "natural_language",
+            "response_type": "search_skill"
+          },
+          {
+            "values": [
+              {
+                "text": "En la WEB de la Fundación Naturgy"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "question": "<?input.text?>"
+      },
+      "conditions": "#Bot_Control_Reject_Response",
+      "dialog_node": "node_5_1570794405843",
+      "previous_sibling": "node_3_1570692534275"
+    },
+    {
+      "type": "standard",
+      "title": "Factura",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A continuación te muestro los campos clave de una factura.\n Haz click en el que desees"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Campos de factura",
+            "options": [
+              {
+                "label": "CUPS",
+                "value": {
+                  "input": {
+                    "text": "CUPS"
+                  }
+                }
+              },
+              {
+                "label": "Potencia",
+                "value": {
+                  "input": {
+                    "text": "Potencia"
+                  }
+                }
+              },
+              {
+                "label": "Tarifa",
+                "value": {
+                  "input": {
+                    "text": "Tarifa"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Conoce_Factura",
+      "dialog_node": "node_10_1570174066548",
+      "previous_sibling": "node_6_1570711631800"
+    },
+    {
+      "type": "standard",
+      "title": "Tabla",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Si quieres seleccionar otros hábitos de consumo pincha en la opción considerada"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Hábitos de consumo",
+            "options": [
+              {
+                "label": "Calefacción",
+                "value": {
+                  "input": {
+                    "text": "Calefaccion"
+                  }
+                }
+              },
+              {
+                "label": "Refrigeración",
+                "value": {
+                  "input": {
+                    "text": "Refrigeracion"
+                  }
+                }
+              },
+              {
+                "label": "Iluminacion",
+                "value": {
+                  "input": {
+                    "text": "Iluminacion"
+                  }
+                }
+              },
+              {
+                "label": "Informatica",
+                "value": {
+                  "input": {
+                    "text": "Informatica"
+                  }
+                }
+              },
+              {
+                "label": "Cocina",
+                "value": {
+                  "input": {
+                    "text": "Cocina"
+                  }
+                }
+              },
+              {
+                "label": "Lavadora",
+                "value": {
+                  "input": {
+                    "text": "Lavadora"
+                  }
+                }
+              },
+              {
+                "label": "Frigorifico",
+                "value": {
+                  "input": {
+                    "text": "Frigorifico"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "dialog_node": "node_1_1570114290799",
+      "previous_sibling": "node_4_1569840659385"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entonces introduce el tema sobre el que quieres que te siga ayudando"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Bot_Control_Change_Subject",
+      "dialog_node": "node_3_1570692534275",
+      "previous_sibling": "node_3_1570547143210"
+    },
+    {
+      "type": "standard",
+      "title": "Eficiencia ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La eficiencia consiste en utilizar la innovación tecnológica en el ámbito de la energía, de forma coherente con el respeto y la protección del medio ambiente.\n\nSi desea más información puede pinchar en el siguiente enlace:"
+              },
+              {
+                "text": "<a href=\"http://www.fundacionnaturgy.org/accion-social/plan-vulnerabilidad-energetica/escuela-de-energia//\" target=\"blank\">Escuela de energia</a>."
+              },
+              {
+                "text": "¿Quiere ver recomendaciones sobre hábitos de tu consumo? Pincha en los enlaces"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Selecciona el hábito de consumo",
+            "options": [
+              {
+                "label": "Calefacción",
+                "value": {
+                  "input": {
+                    "text": "Calefaccion"
+                  }
+                }
+              },
+              {
+                "label": "Iluminación",
+                "value": {
+                  "input": {
+                    "text": "Iluminacion"
+                  }
+                }
+              },
+              {
+                "label": "Informática",
+                "value": {
+                  "input": {
+                    "text": "Informatica"
+                  }
+                }
+              },
+              {
+                "label": "Refrigeración",
+                "value": {
+                  "input": {
+                    "text": "Refrigeracion"
+                  }
+                }
+              },
+              {
+                "label": "Cocina",
+                "value": {
+                  "input": {
+                    "text": "Cocina"
+                  }
+                }
+              },
+              {
+                "label": "Lavadora",
+                "value": {
+                  "input": {
+                    "text": "Lavadora"
+                  }
+                }
+              },
+              {
+                "label": "Frigorífico",
+                "value": {
+                  "input": {
+                    "text": "Frigorifico"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Eficiencia",
+      "dialog_node": "node_4_1569840659385",
+      "previous_sibling": "node_9_1570721047006"
+    },
+    {
+      "type": "standard",
+      "title": "Vulnerabilidad",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "En el siguiente enlace puedes ver el Plan de Vulnerabilidad energética de la Fundación Naturgy"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<a href=\"http://www.fundacionnaturgy.org/accion-social/plan-vulnerabilidad-energetica/\" target=\"blank\">Plan de Vulnerabilidad Energética</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "También puedo darte información sobre el bono social si deseas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "¿Cual es tu opción?",
+            "options": [
+              {
+                "label": "SI ",
+                "value": {
+                  "input": {
+                    "text": "BONO"
+                  }
+                }
+              },
+              {
+                "label": "NO",
+                "value": {
+                  "input": {
+                    "text": "CAMBIAMOS DE TEMA"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Vulnerabilidad",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1570691330017",
+      "previous_sibling": "node_7_1570171692036"
+    },
+    {
+      "type": "standard",
+      "title": "Presentación Fundación",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La Fundación Naturgy es una institución sin ánimo de lucro fundada en 1992 y con una vocación de formación y sensibilización de la sociedad en la mejora de la eficiencia energética y la innovación tecnológica en el ámbito de la energía. También desarrolla programas de acción social tanto en el ámbito nacional como internacional, incidiendo especialmente en **actuaciones destinadas a paliar la vulnerabilidad energética**."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Pregúntame sobre nuestra actividad de la Escuela de Energía o contacta con nosotros en el siguiente link:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "<a href=\"http://www.fundacionnaturgy.org/contacto/\" target=\"blank\">Contacto Fundación</a>"
+              },
+              {
+                "text": "¿Necesitas algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1570792275283"
+      },
+      "conditions": "#Fundacion",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1569838178256",
+      "previous_sibling": "node_7_1571149169457"
+    },
+    {
+      "type": "standard",
+      "title": "Bono",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El bono social es un descuento en la factura de la luz para ayudar a los clientes vulnerables y/o en riesgo de exclusión social."
+              },
+              {
+                "text": "Sólo se aplica a clientes del mercado doméstico, en su vivienda habitual, si se tiene contratada la tarifa del Precio Voluntario para el Pequeño Consumidor (PVPC) y se cumplen las siguientes condiciones:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Tipologías de Clientes",
+            "source": "http://www.fundacionnaturgy.org/wp-content/uploads/2019/05/bonosocial02_es.png",
+            "response_type": "image"
+          },
+          {
+            "title": "Selecciona la opción que quieras ver",
+            "options": [
+              {
+                "label": "Condiciones de acceso",
+                "value": {
+                  "input": {
+                    "text": "Condiciones de acceso"
+                  }
+                }
+              },
+              {
+                "label": "Límite de consumo",
+                "value": {
+                  "input": {
+                    "text": "Limite de consumo"
+                  }
+                }
+              },
+              {
+                "label": "Solicitud",
+                "value": {
+                  "input": {
+                    "text": "Solicitud"
+                  }
+                }
+              },
+              {
+                "label": "Condiciones de no corte",
+                "value": {
+                  "input": {
+                    "text": "Condiciones de no corte"
+                  }
+                }
+              },
+              {
+                "label": "Bono social térmico",
+                "value": {
+                  "input": {
+                    "text": "Bono social termico"
+                  }
+                }
+              },
+              {
+                "label": "Pobreza Energetica",
+                "value": {
+                  "input": {
+                    "text": "Pobreza Energetica"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Bono_Social",
+      "dialog_node": "node_7_1570171692036",
+      "previous_sibling": "node_1_1570114290799"
+    },
+    {
+      "type": "standard",
+      "title": "Apuntar_Escuela",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Te puedes apuntar a través del siguiente link:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<a href=\"http://www.fundacionnaturgy.org/formulario-escuela-energia/\" target=\"blank\">Formulario de Inscripción</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@apuntar",
+      "dialog_node": "node_9_1570721047006",
+      "previous_sibling": "node_8_1569838975842"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Empecemos desde el principio"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bienvenido"
+      },
+      "conditions": "#Reinicio",
+      "dialog_node": "node_6_1570883567878",
+      "previous_sibling": "node_3_1570794498561"
+    },
+    {
+      "type": "standard",
+      "title": "Optimizacion_Factura",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A continuación te muestro como puedes optimizar tu factura"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Opciones para optimizar factura",
+            "options": [
+              {
+                "label": "Revisar tarifa-discriminación horaria",
+                "value": {
+                  "input": {
+                    "text": "Revisar tarifa"
+                  }
+                }
+              },
+              {
+                "label": "Revisar potencia contratada",
+                "value": {
+                  "input": {
+                    "text": "Revisar Potencia"
+                  }
+                }
+              },
+              {
+                "label": "Solicitar bono social",
+                "value": {
+                  "input": {
+                    "text": "Solicitar bono"
+                  }
+                }
+              },
+              {
+                "label": "Mejorar hábitos de consumo",
+                "value": {
+                  "input": {
+                    "text": "Mejorar hábitos"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Ahorro_Factura",
+      "dialog_node": "node_1_1570179331801",
+      "previous_sibling": "node_10_1570174066548"
+    },
+    {
+      "type": "standard",
+      "title": "Bienvenido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bienvenido al Chatbot de la Escuela de Energía de la Fundación Naturgy"
+              },
+              {
+                "text": "¿En qué puedo ayudarte? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "context": {
+        "time_of_day": "buenos dias"
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bienvenido"
+    }
+  ],
+  "workspace_id": "a5d31b70-9e63-4580-96cc-576541cea5c6",
+  "counterexamples": [
+    {
+      "text": "apuntarse a la escuela de energia"
+    },
+    {
+      "text": "buenos dias"
+    },
+    {
+      "text": "como puedo apuntarme a la escuela de la energia"
+    },
+    {
+      "text": "cual es el correo de la fundacion"
+    },
+    {
+      "text": "cual es el correo de la fundación"
+    },
+    {
+      "text": "donde me puedo apuntar a la escuela de energia"
+    },
+    {
+      "text": "sesiones"
+    },
+    {
+      "text": "sesiones familias"
+    }
+  ],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "disambiguation": {
+      "enabled": false,
+      "randomize": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
