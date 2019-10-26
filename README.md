@@ -70,8 +70,15 @@ Se ha incluido en el chatbot la posibilidad de búsqueda de información a trav�
 La búsqueda se ha configurado para realizarse en  información almacenada en la web de la Fundación Naturgy y permite ampliar la respuesta en el caso de cuestiones relacionadas con la Escuela de Energía, y en otros puntos del ChatBot sobre cuestiones no registradas en el Diálogo.
 Para ello se ha utilizado el servicio de WEB_CRAWL y se ha configurado el mismo en cuadro de diálogo SEARCH del asistente de Watson.
 En las siguientes imágenes se puede ver el servicio Discovery configurado
-
-
+<img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/discovery_1.PNG"
+     alt="Node Red"
+     style="float: left; margin-right: 50px;"
+     width="900"/>
+<img src="https://github.com/manrodan/fundacion-hackaton-ibm/blob/master/discovery_2.PNG"
+     alt="Node Red"
+     style="float: left; margin-right: 50px;"
+     width="900"/>
+     
 #### Integración con Node Red del servicio de Telegram
 En el siguiente enlace aparecen los pasos para darse de alta en Node-Red y como crear una aplicación:
 [Guía Node Red](https://cloud.ibm.com/docs/cloud-foundry?topic=cloud-foundry-gettingstarted-nodered)
