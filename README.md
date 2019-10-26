@@ -24,6 +24,13 @@ Las herramientas utilizadas han sido:
   5. Node Red
   
 Para la implementación del proyecto es necesario tener una cuenta IBM CLOUD con los servicios LITE activados. Para el desarrollo de este proyecto también se ha utilizado el servicio de pago SEARCH Plus en su modalidad de Try.
+
+Para la comprensión del proyecto desarrollado se adjuntan tres videos cortos de demostración de los módulos implementados:
+1. **Chatbot.mp4** ---  Funcionamiento del chatbot de la escuela de energía
+El chatbot también puede probarse mediante el uso del siguiente link: [Chatbot](https://assistant-chat-eu-gb.watsonplatform.net/web/public/335f4546-6df6-49f8-a04f-d51ebdba31a3)
+2. **Telegram.mp4** --- Funcionamiento del chatbot interaccionando mediante un bot de telegram
+3. **SpeechToText.mp4** -- Funcionamiento del chatbot mediante entrada y salida de voz
+
 ## Descripción del Proyecto
 ### Chatbot Watson Assistant
 Se han desarrollado dos chatbot, el primero de ellos denominado **Fundación** con funcionalidad completa de imágenes, textos, links, etc. para su integración en una web; mientras que el segundo chatbot **Fundación_breve** es un asistente con respuesta de sólo texto para facilitar su integración con las herramientas Speech_To_Text, Text_To_Speech y Telegram.
@@ -49,8 +56,9 @@ En la lista de archivos del proyecto se encuentra el JSON correspondiente a ambo
 Para incorporar los Dialogos a un asistente es necesario hacerlo siguiendo los siguientes pasos.
     1. Dar de alta y lanzar el servicio Watson-Assistant
     2. Crear un asistente.
-    3. Añadir un diálogo exportando el JSON adjunto
+    3. Añadir un diálogo exportando el JSON adjunto a este proyecto
 *Nota:Para añdir el skill de Búsqueda es necesario utilizar los servicios PLUS* 
+
 ### Integración con otras aplicaciones
 Como hemos dicho antes, en este proyecto se han usado distintos servicios de IBM Cloud, para poder integrarlos se ha usado Node-RED que es una herramienta de “low-code programming” que permite conectar dispositivos de hardware, API’s y servicios en línea como los que hemos usado.  
 
@@ -61,6 +69,8 @@ Se ha incluido en el chatbot la posibilidad de búsqueda de información a trav�
 
 La búsqueda se ha configurado para realizarse en  información almacenada en la web de la Fundación Naturgy y permite ampliar la respuesta en el caso de cuestiones relacionadas con la Escuela de Energía, y en otros puntos del ChatBot sobre cuestiones no registradas en el Diálogo.
 Para ello se ha utilizado el servicio de WEB_CRAWL y se ha configurado el mismo en cuadro de diálogo SEARCH del asistente de Watson.
+En las siguientes imágenes se puede ver el servicio Discovery configurado
+
 
 #### Integración con Node Red del servicio de Telegram
 En el siguiente enlace aparecen los pasos para darse de alta en Node-Red y como crear una aplicación:
