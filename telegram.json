@@ -1,0 +1,192 @@
+[
+    {
+        "id": "f2226d69.fd2d7",
+        "type": "tab",
+        "label": "Flow 4",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "b45203b2.5656",
+        "type": "telegram receiver",
+        "z": "f2226d69.fd2d7",
+        "name": "",
+        "bot": "",
+        "saveDataDir": "",
+        "x": 130,
+        "y": 160,
+        "wires": [
+            [
+                "975b3e12.55521"
+            ],
+            [
+                "9a673d74.afd58"
+            ]
+        ]
+    },
+    {
+        "id": "975b3e12.55521",
+        "type": "function",
+        "z": "f2226d69.fd2d7",
+        "name": "Save context",
+        "func": "msg.chatId = msg.payload.chatId;\nmsg.payload=msg.payload.content;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 80,
+        "wires": [
+            [
+                "c2f2c9c4.34d8b8",
+                "bd28e89a.c0c4e8"
+            ]
+        ]
+    },
+    {
+        "id": "c2f2c9c4.34d8b8",
+        "type": "watson-conversation-v1",
+        "z": "f2226d69.fd2d7",
+        "name": "Fundacion",
+        "workspaceid": "",
+        "multiuser": false,
+        "context": false,
+        "empty-payload": false,
+        "default-endpoint": false,
+        "service-endpoint": "",
+        "timeout": "",
+        "optout-learning": false,
+        "x": 493,
+        "y": 163,
+        "wires": [
+            [
+                "2d43baf2.a78bc6",
+                "552fb80.cc48648"
+            ]
+        ]
+    },
+    {
+        "id": "2d43baf2.a78bc6",
+        "type": "function",
+        "z": "f2226d69.fd2d7",
+        "name": "Restore context",
+        "func": "msg.payload = {\n    chatId:msg.chatId,\n    type: \"message\",\n    content:msg.payload.output.text[0]\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 654,
+        "y": 76.9375,
+        "wires": [
+            [
+                "d0189c6.5418b6",
+                "f889f5ce.1c9db8"
+            ]
+        ]
+    },
+    {
+        "id": "d0189c6.5418b6",
+        "type": "telegram sender",
+        "z": "f2226d69.fd2d7",
+        "name": "",
+        "bot": "4e483302.6ecfec",
+        "x": 875.75,
+        "y": 153,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9a673d74.afd58",
+        "type": "function",
+        "z": "f2226d69.fd2d7",
+        "name": "Not authorized user",
+        "func": "msg.payload.content = \"You're not authorized user\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 528.75,
+        "y": 303.4375,
+        "wires": [
+            [
+                "d0189c6.5418b6"
+            ]
+        ]
+    },
+    {
+        "id": "e8f4c2ff.3b86f",
+        "type": "comment",
+        "z": "f2226d69.fd2d7",
+        "name": "Read.me",
+        "info": "Crear un bot en telegram con ASSISTANT\nNecesario crear un Telegram Bot:\n   Abrir web.telegram.org\n   Enviar /newbot\n   Dar un nombre al Bot (Botfather lo pedirá)\n   Asignar un nombre de usuario\n   El BotFather proveerá un token.\n   ",
+        "x": 112.5,
+        "y": 114.68746948242188,
+        "wires": []
+    },
+    {
+        "id": "bd28e89a.c0c4e8",
+        "type": "debug",
+        "z": "f2226d69.fd2d7",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 442.99998474121094,
+        "y": 36.59999084472656,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "f889f5ce.1c9db8",
+        "type": "debug",
+        "z": "f2226d69.fd2d7",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 798.9999847412109,
+        "y": 29.599990844726562,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "552fb80.cc48648",
+        "type": "debug",
+        "z": "f2226d69.fd2d7",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 586.9999847412109,
+        "y": 221.59999084472656,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "4e483302.6ecfec",
+        "type": "telegram bot",
+        "z": "",
+        "botname": "",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "verboselogging": true
+    }
+]
